@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
 
 
 class Curencyconvetor extends StatefulWidget{
@@ -123,7 +125,8 @@ class Curencyconvetor extends StatefulWidget{
                           ),
                     
                         ),
-                        keyboardType: TextInputType.numberWithOptions(decimal: true),
+                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                        inputFormatters: [FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))],
                       ),
                   ), 
                   Container(
