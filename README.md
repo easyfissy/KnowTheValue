@@ -1,16 +1,38 @@
-# KnowtheValue
+# KnowTheValue 
+*A simple yet elegant currency converter app built with Flutter*
 
-A new Flutter project.
+## 📱 Overview
+**KnowTheValue** is a lightweight and intuitive mobile application that allows users to **convert Indian Rupees (INR)** into popular foreign currencies like **USD, Euro, and Pound Sterling**. Designed with a modern UI and smooth interaction flow, the app helps users quickly calculate and understand currency values in real time.
 
-## Getting Started
+## 🚀 Features
+- Convert INR to:
+  - 🇺🇸 USD
+  - 🇬🇧 Pound
+  - 🇪🇺 Euro
+- Clean, responsive, and gradient-based user interface
+- Background image and logo integration for visual appeal
+- Drop-down selection for currencies
+- Input validation and formatting
+- Live calculation on button press
 
-This project is a starting point for a Flutter application.
+## 🛠️ Technologies Used
+- **Flutter** (Dart)
+- **Material Design**
+- Custom gradients and image assets
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Assets Used
+- `assets/app_logo.png`: App logo  
+- `assets/2.png`: Background image
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Make sure to include these images in your `/assets/` folder and declare them in `pubspec.yaml`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Getting Started
+### Prerequisites:
+- Flutter SDK installed
+- A device or emulator to run the app
+
+### Setup Instructions:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/knowthevalue.git
+   cd knowthevalue
